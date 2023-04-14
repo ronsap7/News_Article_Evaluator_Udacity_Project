@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Article Evaluator</title>
+    <link rel="stylesheet" href="../styles/base.scss">
+    <link rel="stylesheet" href="../styles/footer.scss">
+    <link rel="stylesheet" href="../styles/form.scss">
+    <link rel="stylesheet" href="../styles/header.scss">
+    <link rel="stylesheet" href="../styles/main.scss">
+</head>
+<body>
+    <header>
+        <h1>News Article Evaluator</h1>
+    </header>
+    <main>
+        <form id="evaluate-form">
+            <label for="text">Enter the news article text:</label>
+            <textarea id="text" name="text" rows="10" cols="50"></textarea>
+            <button type="submit">Evaluate</button>
+        </form>
+        <div id="result" class="result"></div>
+    </main>
+    <footer>
+        <p>News Article Evaluator &copy; 2023</p>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+</html>
