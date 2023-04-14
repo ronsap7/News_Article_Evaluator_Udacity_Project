@@ -30,9 +30,6 @@ To start the development server, run:
 
 This will start the server and open the application in your default web browser.
 
-To run the tests, run:
-
-``` npm run test ```
 
 To build the production version of the application, run:
 
